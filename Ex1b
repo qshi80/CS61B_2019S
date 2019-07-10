@@ -1,0 +1,14 @@
+public class TraingleDrawer {
+    public static void drawingTriangle(int N) {
+        String  str = "*";
+        int n = 1;
+        while (n <= N) {
+            System.out.println(str);
+            n = n + 1;
+            str = str + "*";
+        }
+    }
+    public static void main (String[] args) {
+        drawingTriangle(10);
+    }
+}
